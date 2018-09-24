@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<head>
+  <title>Research</title>
+    <meta charset ="UTF-8">
+    <meta name="keywords" content="y samuel wang,
+	sam wang,
+	uw statistics,
+	ysamwang,
+	y. samuel wang,
+	samuel wang,
+	yu-hsuan samuel wang">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61717566-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<div class = "background">
+ <div class= "navBar">
+   <h1>Y. Samuel Wang</h1>
+
+    <ul class = "navBar">
+	<li class = "navBar"><a href="index.html", class = "navBar">Home</a></li>
+	<li class = "navBar"><a href="research.html", class = "navBar">Research</a></li>
+	 <li class = "navBar"><a href="http://github.com/ysamwang", class = "navBar">GitHub</a></li>
+</ul>
+</div>
+
+<br>
+
+
+<div class = "wrapper">
+<h2> Some things I enjoy thinking about </h2>
+<div style="float: left; width: 25%;">
+
+  <p class = "center">
+  <img src = "strg/gradAscent.jpg" width="80%" alt = "Profile Picture" style = "box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+<br>
+Real life gradient ascent
+</p>
+
+</div>
+<div style="width: 70%; text-align: left; float: right;">
+  <p class = "content">
+My research interests in theory and methodology include graphical models, causal discovery, and high dimensional statistics; my applied interests typically lie within the social sciences.
+
+    <br><br>
+    
+  </p>
+
+</div>
+
+</div> <!-- Close holder -->
+</div> <!-- Close Background -->
+
+
+
+</body>
+</html>
