@@ -33,7 +33,6 @@
     <ul class = "navBar">
 	<li class = "navBar"><a href="index.html", class = "navBar">Home</a></li>
 	<li class = "navBar"><a href="research.html", class = "navBar">Research</a></li>
-	<li class = "navBar"><a href="teaching.html", class = "navBar">Teaching</a></li>
 	 <li class = "navBar"><a href="http://github.com/ysamwang", class = "navBar">GitHub</a></li>
 </ul>
 </div>
@@ -42,84 +41,21 @@
 
 
 <div class = "wrapper">
-<h2> What I Enjoy Thinking About </h2>
+<h2> Some things I enjoy thinking about </h2>
+<div style="float: left; width: 25%;">
 
-<div class = "holder">
-<h4> Linear Structural Equation Models </h4>
-<p class = "content">
-My dissertation work with <a href="http://www.stat.washington.edu/~md5/Home.html" > Mathias Drton</a> focuses on interesting cases of linear structural equation models (SEMs) beyond the typical setting of Gaussian errors with a directed acylic graph. In an initial project, we consider SEMs with Gaussian errors which can be represented by a mixed graph-- a graph with both directed and bi-directed edges. In the graph, each variable is represented by a node, directed edges indicate that the parent has a direct causal effect on the child, and bi-directed edges indicates that there is latent confounding between two variables. We consider maximum likelihood estimation of parameters when the corresponding model may contain directed cycles or bows-- the case where two nodes which share both a directed and bi-directed edge.
-</p>
-
-
-<p class = "center">
-<img src = "img/sem.png" alt = "Structural Equation Model" style = "box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width = "320" height = "110" > <br><small>Possible model for research productivity with a bow and cycle </small> </p>
-
-<p class = "content">
-More recently, I have been working on models where the errors may be non-Gaussian. Empirical likelihood (EL) provides a useful non-parametric framework for estimating model parameters without an explicit likelihood for the data, but comes at a high computational cost. We show how EL can be made more computationally tractable for models represented by a mixed graph. In addition, we consider exploiting non-Gaussianity for causal discovery. Specifically, consideration of higher order moments in the non-Gaussian case can be used to differentiate between graphs in the same Markov equivalence class. We exploit this fact to find a single graph (rather than an equivalence class) and are developing methods which are applicable in the high dimensional case (where the number of variables grows faster than the number of observations).
-</p>
-
-<br><br>
-
-<p class = "content">
-Drton, Fox, Wang. Computation of Maximum Likelihood Estimates in Cyclic Structural Equation Models <a href="https://arxiv.org/pdf/1610.03434.pdf" > https://arxiv.org/pdf/1610.03434.pdf </a> (Forthcoming in AoS).
-<br><br>
-Wang, Y. Samuel; Drton, Mathias. Empirical Likelihood For Linear Structural Equation Models with Dependent Errors. Stat. 6 (2017), no. 1, 434-447. <a href="http://onlinelibrary.wiley.com/doi/10.1002/sta4.169/pdf"> http://onlinelibrary.wiley.com/doi/10.1002/sta4.169/pdf</a>  <a href="https://arxiv.org/pdf/1710.02588.pdf">pdf</a>
-<br><br>
-Wang, Drton. Causal Discovery for non-Gaussian DAGs in High Dimensions. (In progress).
-</p>
-
-
-</div>
-
-
-<hr>
-
-<div class = "holder">
-<h4> Mixed Membership Models </h4>
-<p class = "content">
-I also work on estimation of mixed membership models with  <a href="http://www.stat.washington.edu/elena/" >Elena Erosheva</a>. Mixed membership models are an extension of mixture models which allow each individual to belong to multiple sub-groups to varying degrees.
-</p>
-
- <p class = "center">
-<img src = "img/plot4_base10.png" alt = "Structural Equation Model" style = "box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" width = "250" height = "120" > </p>
-
-<p class ="center"><small>Estimated policy preferences for each identified sub-group</small> </p>
-
-<p class = "content">
-In a particular project, we consider mixed membership models of multivariate rank data, specifically Plackett-Luce models. Rank data can be used to express preferences over a set of alternatives. In particular, we analyze data from the Eurobarometer 34.1 survey in which participants ranked public health policy priorities for addressing alcoholism, illicit drug use and AIDS. The large size of the data necessitates an alternative to the typical MCMC approach so we develop a fast approximate inference method via variational approximations. We also extend the current literature by allowing for multivariate ranked data and explicitly estimating sub-group sizes.
-</p>
-
-<br><br>
-
-<p class = "content">
-  Wang, Y. Samuel; Matsueda, Ross L.; Erosheva, Elena A. A variational EM method for mixed membership models with multivariate rank
-  data: An analysis of public policy preferences. Ann. Appl. Stat. 11 (2017), no. 3, 1452–1480. <a href="http://dx.doi.org/10.1214/17-AOAS1034">http://dx.doi.org/10.1214/17-AOAS1034</a> <a href="papers/AOAS1034">pdf</a>
-  
+  <p class = "center">
+  <img src = "strg/gradAscent.jpg" width="80%" alt = "Profile Picture" style = "box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" >
+<br>
+Real life gradient ascent
 </p>
 
 </div>
-
-<hr>
-
-<div class = "holder">
-<h4> Network Analysis </h4>
-<p class = "content">
-I am also collaborating with
-<a href="http://octavia.zoology.washington.edu/" >Carl Bergstrom</a>,
-<a href="http://www.stat.washington.edu/elena/" >Elena Erosheva</a>,
-<a href="http://faculty.washington.edu/c3/" >Carole Lee</a>, and
-<a href="http://www.jevinwest.org/" >Jevin West</a>
- on a cross-disciplinary project regarding homophily in co-authorship networks. Homophily is the tendency for individuals to associate with other individuals with similar characteristics. In particular, we are focused on measuring gender homophily in scholarly co-authorship, namely the JSTOR corpus. Measuring gender homophily is complicated by the fact that gender composition and co-authorship norms vary widely across disciplines and sub-disciplines. Thus, we use a non-parametric analysis which respects the network sub-structure and is capable of scaling to the 2.5+ million authorship records. 
-</p>
-<br><br>
-
-<p class = "content">
-Bergstrom, Erosheva, Lee, Wang, West. Measuring Homophily in Co-authorship Formation. (In progres).
-<br><br>
-Wang, Erosheva. On the relationship between set-based and network-based measures of gender homophily in scholarly publications. Center for Statistics and the Social Sciences.  <a href="https://www.csss.washington.edu/files/working-papers/2016/wp157.pdf"> Working Paper 157</a>
-</p>
-
-
+<div style="width: 70%; text-align: left; float: right;">
+  <p class = "content">
+ I am currently a post-doc in the Booth School at the University of Chicago working with <a href="http://sites.coffeejunkies.org/mkolar/">Mladen Kolar</a>. Previously, I completed my PhD in Statistics at the University of Washington under the supervision of <a href="http://www.stat.washington.edu/~md5/Home.html" > Mathias Drton</a>. My research interests include graphical models, causal discovery, and high dimensional statistics.
+  </p>
+</div>
 
 </div> <!-- Close holder -->
 </div> <!-- Close Background -->
